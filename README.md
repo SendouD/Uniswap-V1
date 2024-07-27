@@ -40,7 +40,7 @@ $ forge compile
 
 ### Deploy
 ```shell
-$forge create --rpc-url $QUICKNODE_RPC_URL --private-key $PRIVATE_KEY --constructor-args <address of the token contract you just deployed> --etherscan-api-key $ETHERSCAN_API_KEY --verify src/Exchange.sol:Exchange
+$forge create --rpc-url $QUICKNODE_RPC_URL --private-key $PRIVATE_KEY --etherscan-api-key $ETHERSCAN_API_KEY --verify src/Token.sol:Token
 
 ```
 
